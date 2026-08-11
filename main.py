@@ -49,7 +49,7 @@ def predict(features: Features):
 
     result = {"Predicted_room_type": prediction.tolist()}
 
-    # Only call predict_proba if your model supports it (classifiers do, regressors don't)
+    
     if hasattr(model, "predict_proba"):
         probability = model.predict_proba(row)
         result["Probability"] = probability.tolist()
