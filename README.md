@@ -211,9 +211,6 @@ NYC-Airbnb-ML-Room-Type-Classification/
 
 ---
 
-
----
-
 ## 📄 License
 
 Licensed under the [MIT License](LICENSE).
